@@ -1,0 +1,13 @@
+<div class="container">
+ <div class="ms-3 border-start">
+ <%= params[:question]%>
+ <p>-You</p>
+ <div>
+ <br>
+ <div class="alert alert-warning border-start">
+ <%= @answer%>
+ <p>-Your coach</p>
+ </div>
+ <br>
+ <%= link_to "ask a new question", ask_path %>
+</div>
